@@ -21,12 +21,18 @@ exports.config = {
       waitForNavigation: 'networkidle',
       waitForTimeout: 5000,
       windowSize: '1900x900',
+    },
+    ChaiWrapper: {
+      require: "codeceptjs-chai"
     }
   },
   include: {
     I: './steps_file.js',
     basePage: "./pages/base.js",
     accountPage: "./pages/account.js",
+    productPage: "./pages/product.js",
+
+    cartPage: "./pages/cart.js",
   },
   name: 'js_summer2023'
 }

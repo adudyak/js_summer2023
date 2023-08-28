@@ -10,5 +10,6 @@ registerButton: { xpath: '//*[@id="top-links"]/ul/li/ul/li[1]/a' },
 
   clickRegister() {
     I.click(this.registerButton);
-  }
+  },
+  
 }

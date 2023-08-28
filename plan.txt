@@ -1,0 +1,22 @@
+xpath
+cheatsheet
+
+buyProduct_test
+openStore() in steps_file
+login() 165465142125082023@test.com 123456
+tags, --grep
+clearCart() with grabNumberOfVisibleElements();
+buy product http://opencart.qatestlab.net/index.php?route=product/product&product_id=44
+also available http://opencart.qatestlab.net/index.php?route=product/product&product_id=68
+http://opencart.qatestlab.net/index.php?route=product/product&product_id=48
+grab product price(product+size+color)
+add product to cart(size, color). selectOption() ?
+proceed to checkout
+compare product + tax with checkout price via codeceptjs-chai. I.assertEqual(). optional seeInField();
+"ChaiWrapper": {
+    "require": "codeceptjs-chai"
+}
+complete checkout
+verify successful purchase
+
+?review process
