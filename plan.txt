@@ -1,22 +1,37 @@
-xpath
-cheatsheet
+git https://www.atlassian.com/git
+git clone
+npm i
+git status
+git add .
+git commit -am
+git checkout -b
+git push
+git pull
+git fetch
+git reset HEAD~
+git checkout main
+git merge
+merge conflict
 
-buyProduct_test
-openStore() in steps_file
-login() 165465142125082023@test.com 123456
-tags, --grep
-clearCart() with grabNumberOfVisibleElements();
-buy product http://opencart.qatestlab.net/index.php?route=product/product&product_id=44
-also available http://opencart.qatestlab.net/index.php?route=product/product&product_id=68
+Data Driven Tests https://codecept.io/advanced/#data-driven-tests
+http://opencart.qatestlab.net/index.php?route=product/product&product_id=44
 http://opencart.qatestlab.net/index.php?route=product/product&product_id=48
-grab product price(product+size+color)
-add product to cart(size, color). selectOption() ?
-proceed to checkout
-compare product + tax with checkout price via codeceptjs-chai. I.assertEqual(). optional seeInField();
-"ChaiWrapper": {
-    "require": "codeceptjs-chai"
-}
-complete checkout
-verify successful purchase
+http://opencart.qatestlab.net/index.php?route=product/product&product_id=68
+http://opencart.qatestlab.net/index.php?route=product/product&product_id=45 (x2)
 
-?review process
+Data Table
+Array
+
+Before/After
+
+BeforeSuite / AfterSuite
+
+tryTo() / grabNumberOfVisibleElements()
+checkColorExists() -> selectColor()
+
+readFileSync
+helpers/fileReader.js
+https://nodejs.dev/en/learn/reading-files-with-nodejs/
+\r\n
+
+handle n/a product
