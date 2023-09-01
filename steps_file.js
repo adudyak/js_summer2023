@@ -20,6 +20,10 @@ module.exports = function() {
 
     proceedToCheckout() {
       ///
+    },
+
+    logoff() {
+      console.log('User logged off!');
     }
   });
 }
