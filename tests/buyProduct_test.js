@@ -9,7 +9,7 @@ xScenario('login', ({ I }) => {
     I.login(USER);
 }).tag("login");
 
-Scenario('buy product', async ({ I, productPage, cartPage, mailPage }) => {
+Scenario('buy product', async ({ I, productPage, cartPage }) => {
     I.login(USER);
     I.amOnPage('/index.php?route=product/product&product_id=44');
     productPage.selectColor();
