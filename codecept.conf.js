@@ -24,7 +24,19 @@ exports.config = {
     },
     ChaiWrapper: {
       require: "codeceptjs-chai"
-    }
+    },
+    PriceGrabber: {
+      require: './helpers/pricegrabber_helper.js',
+    },
+    REST: {
+      endpoint: 'https://bank.gov.ua/NBUStatService/v1/statdirectory/',
+      prettyPrintJson: true,
+      defaultHeaders: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+      },
+    },
+    JSONResponse: {},
   },
   include: {
     I: './steps_file.js',

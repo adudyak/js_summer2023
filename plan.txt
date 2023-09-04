@@ -1,37 +1,31 @@
-git https://www.atlassian.com/git
-git clone
-npm i
-git status
-git add .
-git commit -am
-git checkout -b
-git push
-git pull
-git fetch
-git reset HEAD~
-git checkout main
-git merge
-merge conflict
+replaceAll()
+split
 
-Data Driven Tests https://codecept.io/advanced/#data-driven-tests
-http://opencart.qatestlab.net/index.php?route=product/product&product_id=44
-http://opencart.qatestlab.net/index.php?route=product/product&product_id=48
-http://opencart.qatestlab.net/index.php?route=product/product&product_id=68
-http://opencart.qatestlab.net/index.php?route=product/product&product_id=45 (x2)
+https://codecept.io/helpers/#extending-codeceptjs-with-custom-helpers
+npx codeceptjs gh
+parsePriceToFloat(priceString)
+I.getPrice(productPage.price);
+checkElementisVisible() helper or module
 
-Data Table
-Array
+REST
+https://codecept.io/helpers/REST/#rest
+https://bank.gov.ua/ua/open-data/api-dev
+https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=USD&json
 
-Before/After
+https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.tutorialedge.net%2Fuploads%2Frest-api.png&f=1&nofb=1&ipt=3e518e5ad34859d53851ff21156b5ff709a374f46c60311b2a85e5769346e2ea&ipo=images
 
-BeforeSuite / AfterSuite
+    REST: {
+      defaultHeaders: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+      },
+    },
+    JSONResponse: {},
 
-tryTo() / grabNumberOfVisibleElements()
-checkColorExists() -> selectColor()
+https://codecept.io/helpers/JSONResponse/#jsonresponse
+    I.seeResponseCodeIs(200);
 
-readFileSync
-helpers/fileReader.js
-https://nodejs.dev/en/learn/reading-files-with-nodejs/
-\r\n
+https://jsonplaceholder.typicode.com/guide/
+https://jsonplaceholder.typicode.com/posts
 
-handle n/a product
+README.md

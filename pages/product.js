@@ -15,8 +15,10 @@ module.exports = {
   },
 
   async getProductPrice() {
+
     const draftProductPrice = await I.grabTextFrom(this.productPriceText);
     const draftColorPrice = await I.grabTextFrom(this.colorOption);
+    console.log("color price:", await I.grabPriceFromString(draftColorPrice));
     const draftSizePrice = await I.grabTextFrom(this.sizeOption);
 
     //return +draftColorPrice.trim().slice(-6, -1)//+ draftColorPrice + draftSizePrice;
