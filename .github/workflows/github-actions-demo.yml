@@ -13,7 +13,9 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
-
+    env:
+      HEADLESS: true
+      
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
