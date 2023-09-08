@@ -22,6 +22,9 @@ exports.config = {
       waitForTimeout: 5000,
       windowSize: '1900x900',
     },
+    "Mochawesome": {
+      "uniqueScreenshotNames": "true"
+    },
     ChaiWrapper: {
       require: "codeceptjs-chai"
     },
@@ -44,6 +47,11 @@ exports.config = {
     accountPage: "./pages/account.js",
     productPage: "./pages/product.js",
     cartPage: "./pages/cart.js",
+  },
+  "mocha": {
+    "reporterOptions": {
+      "reportDir": "output"
+    }
   },
   name: 'js_summer2023'
 }

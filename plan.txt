@@ -1,31 +1,26 @@
-replaceAll()
-split
+Parallel Execution
+https://codecept.io/parallel/#parallel-execution
 
-https://codecept.io/helpers/#extending-codeceptjs-with-custom-helpers
-npx codeceptjs gh
-parsePriceToFloat(priceString)
-I.getPrice(productPage.price);
-checkElementisVisible() helper or module
+Reporter
+https://codecept.io/reports/#reporters
+"mocha": {
+  "reporterOptions": {
+    "reportDir": "output"
+  }
+}
+https://www.npmjs.com/package/mochawesome
+  "helpers": {
+    "Mochawesome": {
+        "uniqueScreenshotNames": "true"
+    }
+  },
 
-REST
-https://codecept.io/helpers/REST/#rest
-https://bank.gov.ua/ua/open-data/api-dev
-https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=USD&json
+break pause on element change
 
-https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.tutorialedge.net%2Fuploads%2Frest-api.png&f=1&nofb=1&ipt=3e518e5ad34859d53851ff21156b5ff709a374f46c60311b2a85e5769346e2ea&ipo=images
+headless run
 
-    REST: {
-      defaultHeaders: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json',
-      },
-    },
-    JSONResponse: {},
-
-https://codecept.io/helpers/JSONResponse/#jsonresponse
-    I.seeResponseCodeIs(200);
-
-https://jsonplaceholder.typicode.com/guide/
-https://jsonplaceholder.typicode.com/posts
-
-README.md
+Github Actions
+https://docs.github.com/en/actions
+quickstart sample
+add test
+badge
